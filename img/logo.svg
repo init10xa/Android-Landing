@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="64" height="64" rx="10"></rect>
+        <radialGradient cx="50%" cy="53.3529163%" fx="50%" fy="53.3529163%" r="59.8558545%" id="radialGradient-3">
+            <stop stop-color="#EC4D48" offset="0%"></stop>
+            <stop stop-color="#B41126" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-4" x="0" y="0" width="64" height="64"></rect>
+        <path d="M8.67025983,18.1909178 L-1.70530257e-13,18.1909178 L-1.70530257e-13,0 L8.44375087,0 C12.017559,0 14.1693942,1.72706566 14.1693942,4.53827472 C14.1693942,6.58049834 12.6341667,8.20671345 10.6207537,8.48405246 L10.6207537,8.58490301 C13.0746008,8.69835988 15.0125109,10.5262761 15.0125109,12.9466893 C15.0125109,16.1360879 12.5586637,18.1909178 8.67025983,18.1909178 Z M4.61826612,3.27764285 L4.61826612,7.41251538 L6.99661026,7.41251538 C8.67025983,7.41251538 9.67696635,6.6183173 9.67696635,5.30726016 C9.67696635,4.03402197 8.77093049,3.27764285 7.22311922,3.27764285 L4.61826612,3.27764285 Z M4.61826612,14.913275 L7.36154137,14.913275 C9.26169991,14.913275 10.3187417,14.0812579 10.3187417,12.5432871 C10.3187417,11.0557415 9.23653225,10.2237244 7.33637371,10.2237244 L4.61826612,10.2237244 L4.61826612,14.913275 Z" id="path-6"></path>
+        <filter x="-279.8%" y="-208.9%" width="792.8%" height="671.7%" filterUnits="objectBoundingBox" id="filter-7">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="10" dy="14" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.690196078   0 0 0 0 0.0352941176   0 0 0 0 0.105882353  0 0 0 0.7 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-8.000000, -130.000000)">
+        <g id="Betman-meta" transform="translate(8.000000, 130.000000)">
+            <g id="Logo">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Rectangle-3">
+                    <use fill="#D8D8D8" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#979797" stroke-width="1" x="0.5" y="0.5" width="63" height="63" rx="10"></rect>
+                </g>
+                <g id="Glyph-Copy" mask="url(#mask-2)">
+                    <g id="Betman-sports">
+                        <mask id="mask-5" fill="white">
+                            <use xlink:href="#path-4"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#radialGradient-3)" xlink:href="#path-4"></use>
+                        <g id="Group-6" mask="url(#mask-5)">
+                            <g transform="translate(36.490777, 33.258981)" id="Betman-sports">
+                                <g>
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
